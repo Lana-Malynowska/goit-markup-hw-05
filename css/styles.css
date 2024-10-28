@@ -535,11 +535,12 @@ p {
 .modal-close-btn:focus {
   background-color: #404bbf;
   border: none;
-  fill: #ffffff;
 }
 
-.close-icon:hover,
-.close-icon:focus {
+.modal-close-btn:hover .close-icon {
+  fill: #ffffff;
+}
+.modal-close-btn:focus .close-icon {
   fill: #ffffff;
 }
 
@@ -644,7 +645,6 @@ p {
 .span-privacy {
   width: 16px;
   height: 16px;
-  display: inline-flex;
   margin-right: 8px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
